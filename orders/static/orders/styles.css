@@ -1,0 +1,293 @@
+/* Custom styles for the navigation bar */
+.navbar {
+  background-color: #f8f9fa; /* Background color */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Adjust the brand font size */
+}
+
+.navbar-text {
+  font-weight: bold; /* Make the 'Welcome' text bold */
+  margin-right: 20px; /* Adjust the right margin */
+}
+
+.nav-link {
+  color: #007bff; /* Link color */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Link color on hover */
+}
+
+/* Styling the body if needed */
+body {
+  padding-top: 60px; /* Adjust body padding to avoid content hiding behind the navbar */
+}
+
+/* Custom styles for the confirmation page */
+.confirm {
+  background-color: #f8f9fa; /* Background color for the confirmation box */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px; /* Rounded corners for the confirmation box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.confirm h4 {
+  color: #333; /* Heading color */
+  margin-bottom: 10px; /* Spacing after the 'Hi, Username' */
+}
+
+.confirm h5 {
+  color: #555; /* Sub-heading color */
+}
+
+.confirm ol {
+  list-style: none; /* Remove default list styles */
+  padding-left: 0; /* Remove default padding for the list */
+}
+
+.confirm li {
+  margin-bottom: 5px; /* Spacing between list items */
+}
+
+.confirm form {
+  margin-top: 20px; /* Spacing between the order list and the form */
+}
+
+.confirm p {
+  font-weight: bold; /* Make the 'Total' text bold */
+  margin-bottom: 10px; /* Spacing after the total amount */
+}
+
+.confirm button {
+  background-color: #343a40; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirm button:hover {
+  background-color: #1e2124; /* Button background color on hover */
+}
+
+/* Custom styles for the Menu page */
+.shopping-cart {
+  background-color: #f8f9fa; /* Background color for the shopping cart */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px; /* Rounded corners for the shopping cart */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.shopping-cart h3 {
+  color: #333; /* Heading color for 'Shopping Cart' */
+}
+
+.shopping-cart ol {
+  list-style: none; /* Remove default list styles */
+  padding-left: 0; /* Remove default padding for the list */
+}
+
+.shopping-cart li {
+  margin-bottom: 5px; /* Spacing between list items */
+}
+
+.shopping-cart form p {
+  font-weight: bold; /* Make the 'Total' text bold */
+  margin-bottom: 10px; /* Spacing after the total amount */
+}
+
+.shopping-cart button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shopping-cart button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+#menu {
+  color: #333; /* Heading color for 'Our Menu' */
+  margin-top: 20px; /* Spacing from the top */
+}
+
+.pizza,
+.green {
+  margin-top: 20px; /* Spacing between sections */
+}
+
+.table {
+  margin-bottom: 20px; /* Spacing between tables */
+}
+
+.toppings {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove default underline */
+}
+
+.toppings:hover {
+  text-decoration: underline; /* Underline link on hover */
+}
+
+/* Custom styles for the Login page */
+.form-wrapper {
+  max-width: 400px; /* Set the maximum width for the form wrapper */
+  margin: 0 auto; /* Center the form horizontally */
+  background-color: #f8f9fa; /* Form background color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.form-wrapper h3 {
+  color: #333; /* Heading color */
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Spacing after the heading */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Spacing between form groups */
+}
+
+.form-group label {
+  font-weight: bold; /* Make labels bold */
+}
+
+.form-control {
+  width: 100%; /* Set form input width */
+  padding: 8px; /* Adjust input padding */
+  font-size: 16px; /* Set font size for inputs */
+  border: 1px solid #ced4da; /* Set input border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.btn-dark {
+  background-color: #343a40; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Make the button a block element */
+  width: 100%; /* Set the button width to match the form */
+}
+
+.btn-dark:hover {
+  background-color: #1e2124; /* Button background color on hover */
+}
+
+/* Style for the 'Register here' link */
+.form-wrapper a {
+  text-decoration: none; /* Remove default underline */
+  color: #007bff; /* Link color */
+}
+
+.form-wrapper a:hover {
+  text-decoration: underline; /* Underline link on hover */
+}
+
+/* Custom styles for the Registration page */
+.form-wrapper {
+  max-width: 400px; /* Set the maximum width for the form wrapper */
+  margin: 0 auto; /* Center the form horizontally */
+  background-color: #f8f9fa; /* Form background color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.form-wrapper h3 {
+  color: #333; /* Heading color */
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Spacing after the heading */
+}
+
+.message {
+  margin-bottom: 15px; /* Spacing for the message */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Spacing between form groups */
+}
+
+.form-group label {
+  font-weight: bold; /* Make labels bold */
+}
+
+.form-control {
+  width: 100%; /* Set form input width */
+  padding: 8px; /* Adjust input padding */
+  font-size: 16px; /* Set font size for inputs */
+  border: 1px solid #ced4da; /* Set input border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.btn-dark {
+  background-color: #343a40; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Make the button a block element */
+  width: 100%; /* Set the button width to match the form */
+}
+
+.btn-dark:hover {
+  background-color: #1e2124; /* Button background color on hover */
+}
+
+/* Custom styles for the Staff Account page */
+.confirm {
+  background-color: #f8f9fa; /* Background color for the confirmation box */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px; /* Rounded corners for the confirmation box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.confirm h4 {
+  color: #333; /* Heading color */
+}
+
+.confirm h5 {
+  color: #555; /* Sub-heading color */
+}
+
+.customer-order {
+  margin-bottom: 15px; /* Spacing between customer orders */
+}
+
+.customer-order li {
+  font-weight: bold; /* Make customer name bold */
+}
+
+.customer-order p {
+  margin-bottom: 5px; /* Spacing between order details */
+}
+
+.btn-dark {
+  background-color: #343a40; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-dark:disabled {
+  background-color: #6c757d; /* Disable button background color */
+  cursor: not-allowed; /* Change cursor for disabled button */
+}
+
+.btn-dark:hover {
+  background-color: #1e2124; /* Button background color on hover */
+}
